@@ -151,7 +151,7 @@ figure1.racc.plot <- ggplot(wr.data[wr.data$species == "Racc" & wr.data$rehab ==
   scale_colour_manual(values = c("green","#0072B2", "#000000","#D55E00" ),
                       labels = c("None", "+1%", "+2%", "+5%"),
                       name = "Change in adult mortality") +
-  annotation_custom(racc.g, xmin = 5, xmax = 60, ymin = 725, ymax = 925) +
+  annotation_custom(racc.g, xmin = 5, xmax = 60, ymin = 875, ymax = 1050) +
   theme_classic() +
   theme(legend.position = "none") +
   coord_cartesian(ylim = c(0, 1000))
