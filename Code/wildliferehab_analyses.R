@@ -9,7 +9,7 @@
 ##
 ## Date Created: 2020-03-23
 ##
-## Email: Christina.Davy@ontario.ca, james.earle.paterson@gmail.com,
+## Email: james.earle.paterson@gmail.com,
 ##
 ## ---------------------------
 ##
@@ -111,7 +111,7 @@ figure1.bltu.plot <- ggplot(wr.data[wr.data$species == "BLTU" & wr.data$rehab ==
                       labels = c("None", "+1%", "+2%", "+5%"),
                       name = "Change in\nadult mortality") +
   theme_classic() +
-  annotation_custom(bltu.g, xmin = -5, xmax = 55, ymin = 800, ymax = 1000) +
+  annotation_custom(bltu.g, xmin = -5, xmax = 55, ymin = 875, ymax = 1050) +
   theme(legend.position = "none") +
   coord_cartesian(ylim = c(0, 1000))
 # figure1.bltu.plot
